@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-bottom: #e5e7eb solid 0.5px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 30;
+  font-weight: 700;
+  letter-spacing: 12;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 7px 15px;
+}
+
+.blog {
+  background-color: #030712;
+  color: #ffffff;
+  border-radius: 20px;
+}
